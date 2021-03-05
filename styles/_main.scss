@@ -6,6 +6,10 @@ body {
     padding-top: 20px;
 }
 
+.navbar {
+    background-color: 	#ffdbac;
+}
+
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -22,11 +26,13 @@ body {
     font-family: 'Playfair Display', serif;
     letter-spacing: 3px;
     margin-left: 30px;
+    color:#000;
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     margin-left: 40px;
+    color:#000;
 }
 
 h4 {
@@ -35,4 +41,18 @@ h4 {
 
 .text-dark {
     font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    margin-bottom: 40px;
+}
+
+
+.btn {
+    margin: 20px 0px 40px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-light:hover {
+    color:#ffdbac;
 }
